@@ -26,6 +26,11 @@ mysql>
 mysql>
 mysql>
 mysql>
+
+
+
+
+
 mysql> -drop table country;
 ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-drop table country' at line 1
 mysql> show tables;
@@ -44,4 +49,10 @@ mysql> create table countries(country_id char(2) primary key,country_name varcha
 Query OK, 0 rows affected (1.75 sec)
 
 mysql>
+
+
+
+
+13th February, 2026
+
 
